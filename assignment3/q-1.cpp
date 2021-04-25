@@ -14,22 +14,22 @@ int main()
 	{
 		if(a>c){
 			
-			printf("\n greatest is",a);
+			printf("\n greatest is %d",a);
 		}
 		else{
 			
-			printf("greatest is",c);
+			printf("greatest is %d",c);
 		}
 	}
 	else {
 		
 		if(b>c)
 		{
-		printf("greatest is",b);
+		printf("greatest is %d",b);
 		}
 		else{
 			
-			printf("greates is",c);
+			printf("greates is %d",c);
 		}
 		
 	}

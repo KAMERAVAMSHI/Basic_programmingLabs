@@ -11,14 +11,14 @@ untill u get the quotient as single digit no. and remainder 0
 #include<stdio.h>
 int main()
 {
-  int num,a,sum;
+  int num,n,sum;
   
   printf("enter the four digit number: %d",num);
   scanf("%d",&num);
   while(num>0)
   {
-  	a=num%10;
-  	sum+=a;
+  	n=num%10;
+  	sum+=n;
   	num=num/10;
   }
    printf("sum is %d",sum);

@@ -1,18 +1,18 @@
 #include<stdio.h>
 int main(){
-	int a, b;
-	printf("enter the value of a");
-	scanf("%d",&a);
-	printf("enter the value of b");
-	scanf("%d",b);
+	int num1, num2;
+	printf("enter the value ofnum1");
+	scanf("%d",&num1);
+	printf("enter the value of num2");
+	scanf("%d",&num2);
 	
-	if(a>b)
+	if(num1>num2)
 	 {
-	 	printf("greatest is %d",a);
+	 	printf("smallest is num2 %d",num2);
 	 }
 	 
 	 else{
-	 	printf("greatest is %d",b);
+	 	printf("amallest is num1 %d",num1);
 	 }
 	 return 0;
 	

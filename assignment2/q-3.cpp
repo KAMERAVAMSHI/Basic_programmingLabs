@@ -4,16 +4,17 @@ Eg : a =10 , b=20 . ( before swap)a=20, b=10 (after swap)
 #include<stdio.h>
 int main()
 {
-	int a,b;
-	printf("%d Enter the value of a: ",a);
-	scanf("%d",&a);
-	printf("\n %d Enter the value of b:",b);
-	scanf("%d",&b);
-	a=a+b;
-	b=a-b;
-	a=a-b;
-	printf("new value of a is:%d",a);
-	printf("\n new value of b is:%d",b);
+int num1,num2;
+	printf("%d Enter the value of num1: ",num1);
+	scanf("%d",&num1);
+	printf("\n %d Enter the value of num2:",num2);
+	scanf("%d",&num2);
+	num1=num1+num2;
+	num2=num1-num2;
+	num1=num1-num2;
+	printf("new value of num1 is:%d",num1);
+	printf("\n new value of num2 is:%d",num2);
+
 	
 	return 0;
 	

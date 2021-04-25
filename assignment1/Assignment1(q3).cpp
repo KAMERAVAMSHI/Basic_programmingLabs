@@ -8,8 +8,10 @@ int main()
 	char branch[20];
 	printf("enter your name, roll number, branch");
 	scanf("%s%s%s",&name,&roll,&branch);
-	printf("My name is %s",name); 
-	printf("My roll number is: ",roll);
-	printf("my branch is",branch);
+	printf("My name is %s",name);
+	printf("\n"); 
+	printf("My roll number is %s:",roll);
+	printf("\n");
+	printf("My branch is %s",branch);
 	return 0;
 }

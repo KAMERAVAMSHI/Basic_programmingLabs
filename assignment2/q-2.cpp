@@ -16,7 +16,7 @@ int main()
 	printf("\n Addition is :%d",add);
 	printf("\n Subtraction is: %d",sub);
 	printf("\n multiplication is: %d",mult);
-	printf("\n division is: %d \n",div);
+	printf("\n division is: %f \n",div);
 	
 	return 0;
 }
